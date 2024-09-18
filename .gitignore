@@ -1,0 +1,2 @@
+# No permitir que se suba el node_modules
+node_modules

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-widh, initial-scale=1.0">
+        <title>Crear Cliente</title>
+    </head>
+    <body>
+        <h1>Crear cliente</h1>
+        <div class="container-input">
+
+            <div class="group-input">
+                <label form="name">Identificación</label>
+                <input type="number" id="id" name="id" required />
+            </div>
+
+            <div class="group-input">
+                <label form="name">Nombre</label>
+                <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="group-input">
+                <label form="name">Apellido</label>
+                <input type="text" id="lastName" name="lastName" required />
+            </div>
+
+            <div class="group-input">
+                <label form="name">Tipo de identificación</label>
+                <select id="typeId" name="typeId" required >
+                    <option value="CC">CEDULA</option>
+                    <option value="TI">TARJETA IDENTIDAD</option>
+                    <option value="CE">CEDULA EXTRANJERIA</option>
+                    <option value="RC">REGISTRO CIVIL</option>
+                </select>
+            </div>  
+            
+            <div class="group-input">
+                <label form="name">Celular</label>
+                <input type="text" id="cellphone" name="cellphone" required />
+            </div>
+
+            <div class="group-input">
+                <label form="name">Correo</label>
+                <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="group-btn">
+                <button id="btn-cancel">Cancelar</button>
+                <button id="btn-save">Guardar</button>
+            </div>
+        </div>
+    </body>
+</html>
